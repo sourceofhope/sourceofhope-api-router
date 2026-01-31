@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/app/:path*",
+      "destination": "https://tsoh-api-prod.vercel.app/:path*"
+    },
+    {
+      "source": "/dev/:path*",
+      "destination": "https://tsoh-api-dev.vercel.app/:path*"
+    }
+  ]
+}
