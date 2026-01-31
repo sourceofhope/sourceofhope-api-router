@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/app/:path*",
-      "destination": "https://tsoh-api-prod.vercel.app/:path*"
+      "destination": "https://prod-sourceofhope-api.vercel.app/:path*"
     },
     {
       "source": "/dev/:path*",
-      "destination": "https://tsoh-api-dev.vercel.app/:path*"
+      "destination": "https://dev-sourceofhope-api.vercel.app/:path*"
     }
   ]
 }
