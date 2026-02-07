@@ -1,12 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/app/:path*",
-      "destination": "https://prod-sourceofhope-api.vercel.app/app/:path*"
+      "source": "/app/api/:path*",
+      "destination": "https://prod-sourceofhope-api.vercel.app/api/:path*"
     },
     {
-      "source": "/dev/:path*",
-      "destination": "https://dev-sourceofhope-api.vercel.app/dev/:path*"
+      "source": "/dev/api/:path*",
+      "destination": "https://dev-sourceofhope-api.vercel.app/api/:path*"
     }
   ]
 }
